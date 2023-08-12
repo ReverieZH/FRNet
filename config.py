@@ -13,5 +13,5 @@ camo_path = os.path.join(datasets_root, 'test/CAMO')
 cod10k_path = os.path.join(datasets_root, 'test/COD10K')
 nc4k_path = os.path.join(datasets_root, 'test/NC4K')
 
-fossil_train_root = './Data/Fossil_3k/train'
-fossil_val_root = '.Data/Fossil_3k/val'
+fossil_train_root = './data/Fossil_3k/train'
+fossil_val_root = './data/Fossil_3k/val'
