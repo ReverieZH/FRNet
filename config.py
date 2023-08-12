@@ -4,11 +4,9 @@ import os
 
 efficientnet_backbone_path = './backbone/efficientnet/adv-efficientnet-b4-44fb3a87.pth'
 
-datasets_root = '/home/renzehua/Image_COD/CVPR_PFNet/data/NEW'
-cod_training_root = '/home/renzehua/Image_COD/CVPR_PFNet/data/TrainDataset'
 
-# datasets_root = './data/NEW'
-# cod_training_root = './data/TrainDataset'
+datasets_root = './data/COD/'
+cod_training_root = './data/COD/TrainDataset'
 
 chameleon_path = os.path.join(datasets_root, 'test/CHAMELEON')
 camo_path = os.path.join(datasets_root, 'test/CAMO')
